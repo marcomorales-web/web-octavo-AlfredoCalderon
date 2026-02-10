@@ -1,0 +1,90 @@
+.login-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*fondo del login */
+  background:  url('/assets/img/Fondo_login.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2.5rem;
+  border-radius: 4px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  animation-fill-mode: forwards; 
+}
+
+
+h2 { 
+  color: #000000;
+  font-size: 36px;
+  margin-bottom: 1.5rem;
+}
+
+label { 
+  display: block; 
+  text-align: left;
+  margin-bottom: 0.5rem; 
+  color: #000000; 
+  font-size: 25px;
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #000000; 
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
+  background-color: #fdfaf7;
+}
+
+
+
+.forgot-pass {
+  text-align: right;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.forgot-pass a {
+  color: #19a6d1;
+  font-size: 18px;
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2d4021; 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: #45993c; 
+}
+
+.register-text {
+  color: #555;
+  font-size: 18px;
+}
+
+.register-link {
+  color: #19a6d1;
+  font-weight: 700;
+  font-size: 18px;
+}
+
