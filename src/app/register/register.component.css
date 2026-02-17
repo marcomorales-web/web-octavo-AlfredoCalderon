@@ -72,3 +72,10 @@ button:hover {
   font-weight: 700;
   font-size: 18px;
 }
+
+@media (max-width: 500px) {
+  .register-card {
+    padding: 1.5rem;
+    width: 90%;
+  }
+}

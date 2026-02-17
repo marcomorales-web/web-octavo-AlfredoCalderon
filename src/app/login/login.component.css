@@ -20,7 +20,6 @@
   animation-fill-mode: forwards; 
 }
 
-
 h2 { 
   color: #000000;
   font-size: 36px;
@@ -45,8 +44,6 @@ input {
   margin-bottom: 1.5rem;
   background-color: #fdfaf7;
 }
-
-
 
 .forgot-pass {
   text-align: right;
@@ -86,5 +83,12 @@ button:hover {
   color: #19a6d1;
   font-weight: 700;
   font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  .login-card {
+    padding: 1.5rem;
+    width: 90%;
+  }
 }
 
