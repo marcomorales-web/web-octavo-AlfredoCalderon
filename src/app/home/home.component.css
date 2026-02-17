@@ -137,9 +137,9 @@ input {
 }
 
 /* 3 apartados del museo, voladores y leyendas*/
-.museo { background-color: #8d6e63; } 
-.voladores { background-color: #e57373; } 
-.leyendas { background-color: #4db6ac; } 
+.museo { background-image: url('/assets/img/museo.jpg'); } 
+.voladores { background-image: url('/assets/img/Voladores.jpg'); } 
+.leyendas { background-image: url('/assets/img/Leyenda.jpeg');; } 
 
 .card-text {
   padding: 1.5rem;
