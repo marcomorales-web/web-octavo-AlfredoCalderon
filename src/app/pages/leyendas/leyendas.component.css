@@ -1,0 +1,127 @@
+.leyendas-container {
+  padding: 2rem;
+  background-color: #fdfaf7; 
+  min-height: 100vh;
+}
+
+.leyendas-header {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.titulo-centrado {
+  color: #2d4021; 
+  font-size: 3.5rem;
+  margin: 0;
+  text-align: center;
+  flex-grow: 1; 
+}
+
+.btn-regresar {
+  background: transparent;
+  border: 2px solid #2d4021;
+  color: #2d4021;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+  white-space: nowrap; 
+}
+
+.btn-regresar:hover {
+  background: #2d4021;
+  color: white;
+}
+
+.spacer {
+  width: 100px; 
+}
+
+
+.contenido {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.leyenda-card {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  min-height: 350px;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.leyenda-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.leyenda-img {
+  flex: 1;
+  min-width: 45%;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-color-1 { background-color: #2d4021; }
+.img-color-2 { background-color: #45993c; }
+.img-color-3 { background-color: #19a6d1; }
+
+.leyenda-info {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.leyenda-card:nth-child(even) .leyenda-info {
+  text-align: right;
+}
+
+.leyenda-info h2 {
+  color: #2d4021;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.leyenda-info p {
+  font-size: 1.3rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+  .leyenda-card, 
+  .leyenda-card:nth-child(even) {
+    flex-direction: column; 
+  }
+  
+  .leyenda-card:nth-child(even) .leyenda-info {
+    text-align: left; 
+  }
+
+  .leyenda-img {
+    height: 250px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .leyendas-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .titulo-centrado {
+    font-size: 2.5rem;
+  }
+}
